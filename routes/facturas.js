@@ -6,9 +6,6 @@ router.get('/', function(req, res, next) {
   var id = req.query.id;
   var start = req.query.start;
   var finish = req.query.finish;
-  console.log('id:' + id);
-  console.log('start:' + start);
-  console.log('finish:' + finish);
 
   if(!id || !start || !finish) {
       res.json(200, {response:"Te faltan parámetros"});
