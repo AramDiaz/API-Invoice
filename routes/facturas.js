@@ -6,7 +6,7 @@ var dataModel = require('../models/facturas');
 var router = express.Router();
 
 /*
- * Devuelve JSON con un response, la cantidad de facturas
+ * Devuelve JSON con la cantidad de facturas ó mensajes
  */
 router.get('/', function(req, res, next) {
   var id = req.query.id;
