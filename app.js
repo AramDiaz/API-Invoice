@@ -1,4 +1,6 @@
-
+/*!
+ * Copyright(c) 2017 Aram Diaz
+ */
 var express = require('express');
 var routes = require('./routes/facturas');
 
