@@ -5,10 +5,10 @@
 
   Los parámetros de conexión son.
 
-  * url: http://34.209.24.195/facturas
-  * id: 9918808d-8c8f-4b2e-8d7f-d53b89395f45
-  * start una fecha en formato YYYY-MM-DD
-  * finish una fecha en formato YYYY-MM-DD
+  * `url`: http://34.209.24.195/facturas
+  * `id`: 9918808d-8c8f-4b2e-8d7f-d53b89395f45
+  * `start`: una fecha en formato YYYY-MM-DD
+  * `finish`: una fecha en formato YYYY-MM-DD
 
 ## Respuesta
 
