@@ -5,7 +5,7 @@
 
   Los parámetros de conexión son.
 
-  * `url`: http://34.209.24.195/facturas
+  * `url`: http://74.208.222.55:3001/facturas
   * `id`: 9918808d-8c8f-4b2e-8d7f-d53b89395f45
   * `start`: una fecha en formato YYYY-MM-DD
   * `finish`: una fecha en formato YYYY-MM-DD
@@ -21,16 +21,16 @@
 ## Ejemplos
 
 ```bash
-$ curl http://34.209.24.195/facturas
-> {response:"Te faltan parámetros"}
+$ curl http://74.208.222.55:3001/facturas
+> {"response":"Te faltan parámetros"}
 ```
 
 ```bash
-$ curl http://34.209.24.195/facturas
-> {response:"Hay más de 100 resultados"}
+$ curl http://74.208.222.55:3001/facturas?id=9918808d-8c8f-4b2e-8d7f-d53b89395f45&start=2017-05-01&finish=2017-05-30
+> {"response":"Hay más de 100 resultados"}
 ```
 
 ```bash
-$ curl http://34.209.24.195/facturas
-> {response:34}
+$ curl http://74.208.222.55:3001/facturas?id=9918808d-8c8f-4b2e-8d7f-d53b89395f45&start=2017-05-01&finish=2017-05-05
+> {"response":90}
 ```
